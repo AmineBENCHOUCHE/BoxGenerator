@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 import BoxPanel from "./BoxPanel/BoxPanel"
-import Shadowlist from "./ShadowList/Shadowlist"
+import Shadowlist from "./ShadowList/ShadowList"
 const LeftContainer = () => {
     const [tabs, setTabs] = useState(0)
     const tabsList = [
